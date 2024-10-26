@@ -31,7 +31,7 @@ const ContactPage = () => {
         {/* Contact Details Section */}
         <div className="contact-details w-full md:w-1/2 p-4">
           <div className="contact-image">
-            <img src="/images/contact.png" alt="Contact illustration" className="mb-4" />
+            <img src="./images/contact.png" alt="Contact illustration" className="mb-4" />
           </div>
           <ul className="contact-info">
             <li className="mb-2"><FaPhoneAlt className="inline-block mr-2" /> +94 754239617</li>
