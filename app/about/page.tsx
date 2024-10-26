@@ -45,16 +45,16 @@ const AboutPage = () => {
                 <h2 className='mt-8 font-bold text-2xl mb-10'>Skills & Expertise</h2>
                 <div className="skill-icons">
                     {[
-                        { name: 'Java', icon: '/images/java.png' },
-                        { name: 'Figma', icon: '/images/figma.png' },
-                        { name: 'Node.js', icon: '/images/node.png' },
-                        { name: 'Python', icon: '/images/python.png' },
-                        { name: 'React', icon: '/images/react.png' },
-                        { name: 'TypeScript', icon: '/images/typescript.png' },
-                        { name: 'Tailwind CSS', icon: '/images/css.png' },  // Update the path
-                        { name: 'JavaScript', icon: '/images/js.png' },  // Update the path
-                        { name: 'Visual Studio', icon: '/images/vs.png' },  // Update the path
-                        { name: 'Postgresql', icon: '/images/sql.png' },  // Update the path
+                        { name: 'Java', icon: '/public/images/java.png' },
+                        { name: 'Figma', icon: '/public/images/figma.png' },
+                        { name: 'Node.js', icon: '/public/images/node.png' },
+                        { name: 'Python', icon: '/public/images/python.png' },
+                        { name: 'React', icon: '/public/images/react.png' },
+                        { name: 'TypeScript', icon: '/public/images/typescript.png' },
+                        { name: 'Tailwind CSS', icon: '/public/images/css.png' },  // Update the path
+                        { name: 'JavaScript', icon: '/public/images/js.png' },  // Update the path
+                        { name: 'Visual Studio', icon: '/public/images/vs.png' },  // Update the path
+                        { name: 'Postgresql', icon: '/public/images/sql.png' },  // Update the path
                     ].map((skill, index) => (
                         <motion.div
                             className="skill"
