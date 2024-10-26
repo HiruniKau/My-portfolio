@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+import { defineConfig } from 'next';
 
-export default nextConfig;
+export default defineConfig({
+  output: 'export',
+  basePath: '/My-portfolio', // Replace with your actual repository name
+  assetPrefix: '/My-portfolio', // Same as basePath
+});
