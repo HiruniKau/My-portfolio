@@ -46,15 +46,15 @@ const AboutPage = () => {
                 <div className="skill-icons">
                     {[
                         { name: 'Java', icon: './images/java.png' },
-                        { name: 'Figma', icon: '/images/figma.png' },
-                        { name: 'Node.js', icon: '/images/node.png' },
-                        { name: 'Python', icon: '/images/python.png' },
-                        { name: 'React', icon: '/images/react.png' },
-                        { name: 'TypeScript', icon: '/images/typescript.png' },
-                        { name: 'Tailwind CSS', icon: '/images/css.png' },  // Update the path
-                        { name: 'JavaScript', icon: '/images/js.png' },  // Update the path
-                        { name: 'Visual Studio', icon: '/images/vs.png' },  // Update the path
-                        { name: 'Postgresql', icon: '/images/sql.png' },  // Update the path
+                        { name: 'Figma', icon: './images/figma.png' },
+                        { name: 'Node.js', icon: './images/node.png' },
+                        { name: 'Python', icon: './images/python.png' },
+                        { name: 'React', icon: './images/react.png' },
+                        { name: 'TypeScript', icon: './images/typescript.png' },
+                        { name: 'Tailwind CSS', icon: './images/css.png' },  // Update the path
+                        { name: 'JavaScript', icon: './images/js.png' },  // Update the path
+                        { name: 'Visual Studio', icon: './images/vs.png' },  // Update the path
+                        { name: 'Postgresql', icon: './images/sql.png' },  // Update the path
                     ].map((skill, index) => (
                         <motion.div
                             className="skill"
