@@ -45,7 +45,7 @@ const AboutPage = () => {
                 <h2 className='mt-8 font-bold text-2xl mb-10'>Skills & Expertise</h2>
                 <div className="skill-icons">
                     {[
-                        { name: 'Java', icon: 'public/images/java.png' },
+                        { name: 'Java', icon: './images/java.png' },
                         { name: 'Figma', icon: '/public/images/figma.png' },
                         { name: 'Node.js', icon: '/public/images/node.png' },
                         { name: 'Python', icon: '/public/images/python.png' },
